@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   transition: 0.5s;
-  background: #ffffff;
+  background: #5c59ba;
   cursor: default;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -34,18 +34,17 @@ ul {
 }
 
 h3 {
-  color: #ffb300;
+  color: #fceb7c;
   margin: 10px 0;
-  text-transform: lowercase;
   font-size: 1.25em;
 }
 
 .resume {
   width: 960px;
-  background: #1a237e;
+  background: #424ec9;
   color: #ffffff;
   margin: 20px auto;
-  box-shadow: 10px 10px #0e1442;
+  box-shadow: 10px 10px #262d73;
   position: relative;
   display: flex;
 }
@@ -74,7 +73,7 @@ h3 {
 }
 
 .resume .base .profile {
-  background: #ffb300;
+  background: #fceb7c;
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -148,7 +147,7 @@ h3 {
 }
 
 .resume .base .contact div i {
-  color: #ffb300;
+  color: #fceb7c;
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -162,6 +161,55 @@ h3 {
 }
 
 .resume .base .contact div span::after {
+  content: "";
+  position: absolute;
+  background: #fdd835;
+  height: 1px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+
+.resume .photo img {
+  border: 5px solid #3f4da5;
+}
+
+.resume .func .prev-work div {
+  line-height: 100%;
+}
+
+.resume .func .prev-work div a:hover {
+  color: #fdd835;
+}
+
+.resume .func .prev-work div a:hover span::after {
+  width: 100%;
+}
+
+.resume .func .prev-work div:hover i {
+  color: #fdd835;
+}
+
+.resume .func .prev-work div {
+  margin: 15px;
+}
+
+.resume .func .prev-work div i {
+  color: #fceb7c;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 15px;
+  transition-duration: 0.3s;
+}
+
+.resume .func .prev-work div span {
+  position: relative;
+}
+
+.resume .func .prev-work span::after {
   content: "";
   position: absolute;
   background: #fdd835;
@@ -195,7 +243,7 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #ffb300;
+  background: #fceb7c;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -237,7 +285,7 @@ h3 {
 
 .resume .func h3 i {
   color: #283593;
-  background: #ffb300;
+  background: #fceb7c;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -327,7 +375,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid #ffffff;
-  background: #ffb300;
+  background: #fceb7c;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -348,22 +396,31 @@ h3 {
 }
 
 .resume .func .work {
-  width: 48%;
+  width: 45%;
   background: #283593;
   padding: 15px;
   margin: 0 4% 15px 0;
 }
 
 .resume .func .edu {
-  width: 48%;
+  width: 45%;
   background: #283593;
   padding: 15px;
+  margin: 0 4% 15px 0;
+}
+
+.resume .func .prev-work {
+  clear: both;
+  background: #283593;
+  padding: 15px;
+  margin: 0 0 15px 0;
 }
 
 .resume .func .skills-prog {
   clear: both;
   background: #283593;
   padding: 15px;
+  margin: 0 0 15px 0;
 }
 
 .resume .func .skills-prog ul {
@@ -403,8 +460,8 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #ffb300;
-  box-shadow: 0 0 0 #ffb300;
+  background: #fceb7c;
+  box-shadow: 0 0 0 #fceb7c;
   border-radius: 5px;
 }
 
@@ -412,7 +469,7 @@ h3 {
   clear: both;
   background: #283593;
   padding: 15px;
-  margin: 15px 0 0;
+  margin: 0 0 15px 0;
 }
 
 .resume .func .skills-soft ul {
@@ -436,7 +493,7 @@ h3 {
 }
 
 .resume .func .skills-soft ul li svg {
-  width: 95%;
+  width: 100%;
   fill: transparent;
   transform: rotate(-90deg);
 }
@@ -448,7 +505,7 @@ h3 {
 
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: #ffb300;
+  stroke: #fceb7c;
   stroke-linecap: round;
 }
 
@@ -504,7 +561,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #ffb300;
+  color: #fceb7c;
   transition-duration: 0.3s;
 }
 
