@@ -120,7 +120,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.75em;
-  text-transform: lowercase;
   color: #1a237e;
 }
 
@@ -133,7 +132,7 @@ h3 {
 }
 
 .resume .base .contact div {
-  line-height: 24px;
+  line-height: 25px;
 }
 
 .resume .base .contact div a:hover {
