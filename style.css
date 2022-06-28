@@ -23,7 +23,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ece9f5;
   display: block;
   transition-duration: 0.3s;
 }
@@ -34,7 +34,7 @@ ul {
 }
 
 h3 {
-  color: #fceb7c;
+  color: #f2ce2c;
   margin: 10px 0;
   font-size: 1.25em;
 }
@@ -73,7 +73,7 @@ h3 {
 }
 
 .resume .base .profile {
-  background: #fceb7c;
+  background: #f2ce2c;
   padding: 30px 15px 40px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
@@ -147,7 +147,7 @@ h3 {
 }
 
 .resume .base .contact div i {
-  color: #fceb7c;
+  color: #f2ce2c;
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -196,7 +196,7 @@ h3 {
 }
 
 .resume .func .prev-work div i {
-  color: #fceb7c;
+  color: #f2ce2c;
   width: 20px;
   height: 20px;
   font-size: 20px;
@@ -243,7 +243,7 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #fceb7c;
+  background: #f2ce2c;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -285,7 +285,7 @@ h3 {
 
 .resume .func h3 i {
   color: #283593;
-  background: #fceb7c;
+  background: #f2ce2c;
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -375,7 +375,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid #ffffff;
-  background: #fceb7c;
+  background: #f2ce2c;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -460,8 +460,8 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #fceb7c;
-  box-shadow: 0 0 0 #fceb7c;
+  background: #f2ce2c;
+  box-shadow: 0 0 0 #f2ce2c;
   border-radius: 5px;
 }
 
@@ -505,7 +505,7 @@ h3 {
 
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: #fceb7c;
+  stroke: #f2ce2c;
   stroke-linecap: round;
 }
 
@@ -561,7 +561,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #fceb7c;
+  color: #f2ce2c;
   transition-duration: 0.3s;
 }
 
